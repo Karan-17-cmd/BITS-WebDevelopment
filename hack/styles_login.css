@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.container{
+    height: 300px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(10px);
+    box-shadow:0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    padding: 30px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.left p{
+    font-size: 30px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.right input{
+    background: transparent;
+    color: white
+    outline: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.right form{
+    display: flex;
+    flex-direction: column;
+}

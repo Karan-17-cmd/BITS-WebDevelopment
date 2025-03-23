@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    backdrop-filter: blur(10px);
+    box-shadow:0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.logo{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-links li{
+    margin-left: 15px;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgba(132, 126, 126, 0.621);
+}
+.nav-links li a{
+    text-decoration: none;
+    color:black;
+}
+.nav-links li:hover{
+    background-color: rgba(59, 57, 57, 0.689);
+}
+.hero{
+    background-image: url('download.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 89.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content{
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow:0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255,255,255,0.18);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: appear 2s ease-in-out;
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.hero-content h1{
+    font-size: 25px;
+    margin: 20px;
+}
+.hero-content p {
+    font-size: 18px;
+}
+.hero-content a{
+    background-color: rgba(132, 126, 126, 0.621);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.about{
+    background-color: rgba(132, 126, 126, 1);
+    padding: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container2 h2{
+    margin-bottom: 15px;
+}
+.steps{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.step{
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
