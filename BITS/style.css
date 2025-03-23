@@ -1,0 +1,76 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9FB;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #00bd8e;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Section */
+.section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+button {
+    padding: 0.8rem 1.2rem;
+    background-color: #287FC4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Form Inputs */
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Event Cards */
+.event-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.event-card {
+    width: 300px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+}
+.idk:hover{
+    color: yellow;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title id="idk">Create Event</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="/" class="logo">Event Feedback</a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <h2>Create a New Event</h2>
+        <form id="eventForm" action="handle.php" method="POST">
+            <input type="hidden" name="action" value="create_event" />
+            <input type="text" name="eventName" placeholder="Event Name" required />
+            <input type="date" name="eventDate" required />
+            <input type="time" name="eventTime" required />
+            <input type="text" name="eventLocation" placeholder="Location" required />
+            <textarea name="eventDesc" placeholder="Event Description" required></textarea>
+            <button type="submit">Create Event</button>
+        </form>
+    </section>
+</body>
+</html>
